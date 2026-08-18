@@ -64,7 +64,8 @@
         "file://*/*.MD?*",
         "file://*/*.MDX?*",
         "file://*/*.MKD?*",
-        "file://*/*.MARKDOWN?*"
+        "file://*/*.MARKDOWN?*",
+        "http://172.18.164.141/*"
       ]
     }
   ],
