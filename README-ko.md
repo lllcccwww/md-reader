@@ -10,6 +10,9 @@ https://md-reader.github.io
 
 마크다운 리더는 브라우저에서 마크다운 문서를 편리하게 미리 볼 수 있게 해주는 강력한 브라우저 확장 프로그램입니다.
 
+> 이 저장소는 원본 [md-reader/md-reader](https://github.com/md-reader/md-reader) 프로젝트를 기반으로 하며 MIT 라이선스와 원저자 표시를 유지합니다.
+> 현재 변경 사항은 확장 프로그램 패키징 스크립트에 Windows 경로 호환성을 추가하여 Windows에서 `pnpm build` 실행 시 파일이 포함된 ZIP 아카이브를 생성하도록 합니다.
+
 - **문서 형식**: `file://`, `http://`, `https://` 프로토콜과 `.md`, `.mkd`, `.mdx`, `.markdown` 확장자 파일 미리보기 지원:
   - `https://example.com/example.md` (온라인 Markdown URL)
   - `file:///Users/my-project/readme.markdown` (로컬 마크다운 파일, \*[특정 권한 필요](#파일-액세스-권한-허용))
@@ -40,7 +43,7 @@ Chrome의 예:
 
    ```bash
    # 이 저장소를 복제합니다
-   git clone https://github.com/md-reader/md-reader.git && cd md-reader
+   git clone https://github.com/lllcccwww/md-reader.git && cd md-reader
 
    # 의존성을 설치합니다
    pnpm install

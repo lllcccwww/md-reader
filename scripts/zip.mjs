@@ -1,5 +1,6 @@
 import fs from 'fs/promises'
 import archiver from 'archiver'
+import { fileURLToPath } from 'node:url'
 import { url, log, newVersion } from './utils.mjs'
 
 const entryDir = url('../extension/')
@@ -25,7 +26,7 @@ try {
   )
 
   archive.pipe(output)
-  archive.directory(entryDir.pathname, false)
+  archive.directory(fileURLToPath(entryDir), false)
   archive.finalize()
 } catch (err) {
   log.red(err)

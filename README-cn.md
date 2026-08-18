@@ -10,6 +10,9 @@ https://md-reader.github.io
 
 Markdown Reader 是一款强大的浏览器扩展程序，能让你在浏览器中快捷的预览 Markdown 文档。
 
+> 本仓库基于原项目 [md-reader/md-reader](https://github.com/md-reader/md-reader) 修改，并保留其 MIT 许可证及原作者署名。
+> 当前修改为扩展打包脚本增加了 Windows 路径兼容支持，使 `pnpm build` 能在 Windows 上生成包含完整文件的 ZIP 包。
+
 - **文档格式**: 支持预览 `file://`、`http://`、`https://` 协议以及 `.md`、`.mkd`、`.mdx`、`.markdown` 等扩展名的文件:
   - `https://example.com/example.md`（在线 Markdown 链接）
   - `file:///Users/my-project/readme.markdown`（本地 Markdown 文件，[\*需要开启特定权限](#允许本地文件访问权限)）
@@ -40,7 +43,7 @@ Markdown Reader 是一款强大的浏览器扩展程序，能让你在浏览器�
 
    ```bash
    # 克隆本仓库
-   git clone https://github.com/md-reader/md-reader.git && cd md-reader
+   git clone https://github.com/lllcccwww/md-reader.git && cd md-reader
 
    # 安装依赖
    pnpm install

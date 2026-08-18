@@ -10,9 +10,12 @@ https://md-reader.github.io
 
 Markdown Reader is a powerful browser extension that enables you to conveniently preview Markdown documents in your browser.
 
+> This repository is based on the original [md-reader/md-reader](https://github.com/md-reader/md-reader) project and retains its MIT license and original attribution.
+> It includes a Windows compatibility fix for the extension packaging script, so `pnpm build` produces a populated ZIP archive on Windows.
+
 > This repository contains the old source code of Markdown Reader(2.x version) and is no longer maintained.
 > It is used only to collect issues about Markdown Reader.
-> 
+>
 > Please download the 3.x version from the [website](https://md-reader.github.io).
 
 - **Document Formats**: Preview links in `file://`, `http://`, `https://` and files with `.md`, `.mkd`, `.mdx`, `.markdown` extensions:
@@ -45,7 +48,7 @@ Example of Chrome:
 
    ```bash
    # Clone this repository
-   git clone https://github.com/md-reader/md-reader.git && cd md-reader
+   git clone https://github.com/lllcccwww/md-reader.git && cd md-reader
 
    # Install dependencies
    pnpm install
